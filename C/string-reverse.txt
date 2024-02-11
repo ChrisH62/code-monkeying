@@ -1,0 +1,11 @@
+string: ABCD\0
+
+i = 0
+//this works for three characters, but breaks when you add a second
+    swap = A
+    A = D (not \0)
+    D = swap (A)
+
+i = 1
+    swap = B 
+    

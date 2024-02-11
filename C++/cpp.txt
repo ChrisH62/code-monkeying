@@ -1,0 +1,2 @@
+Ok so clang died for C++ i guess so use this instead:
+    g++ <filename.cpp> -o <desiredName>

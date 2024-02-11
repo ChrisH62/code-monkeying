@@ -1,0 +1,10 @@
+ok so don't use g++, use clang
+g++ is for C++, clang is for C
+
+format specifiers:
+
+ASCII code offset:
+
+A = 65
+a = 97
+32 apart
