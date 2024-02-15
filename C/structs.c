@@ -1,19 +1,19 @@
 #include<stdio.h>
 #include<string.h>
 
-struct myStruct
+typedef struct
 {
     unsigned int age;
     char name[50];
-};
+} myStruct;
 
 int main(void)
 {
     // Need the struct keyword to create a member
-    struct myStruct s1;
+     myStruct s1;
 
     s1.age = 22;
 // Originally: s1.name[] = "Chris"
 // Learned that you cannot assign strings, and you have to "copy" into them
-    strcpy(s1.name, "Chris");
+    strlcpy(s1.name, "Chris", 6);
 }

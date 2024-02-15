@@ -1,0 +1,15 @@
+A function that calls itself, in order to solve a problem
+
+Ex: Binary Search function
+search(int array[])
+{
+    if no doors left
+        return false
+    if number behind middle door
+        return true
+    Else if number < middle door
+        search() left half
+    Else if number > middle door
+        search() right half
+}
+
