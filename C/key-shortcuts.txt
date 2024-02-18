@@ -1,0 +1,13 @@
+Open Explorer
+    Shft + Cmd + E
+
+Open Debugger
+    Shft + Cmd + D
+
+Split Editor
+    Cmd + \
+
+Open Terminal
+    Ctrl + Shft + `
+
+

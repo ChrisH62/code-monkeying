@@ -16,4 +16,16 @@ Similarly ineffiecient to Selection
 
 These two basic ones are OK for small lists, but again slow.
 
+Merge Sort
+If only one number :Quit
+    Else: 
+    Sort Left half of numbers
+    Sort right half of numbers
+    Merge Sorted halves
+        compare each half, which number should come first?
+
+    Uses Multiple arrays
+    Tradeoff between memory savings and time savings
+
+
 
