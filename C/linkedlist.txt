@@ -1,0 +1,34 @@
+basics: 
+
+create a struct called node, with a 
+variable to save the data,
+and a node pointer called next to store
+the "next address"
+
+initialize a node pointer called 'list' to NULL 
+allocate a pointer named n the sizeof(node)
+for loop {
+get the data somehow (command line, using a loop, etc..)
+
+n->number = number sets the data that n is pointing to
+n->next = NULL makes sure the last element is pointing to null
+
+n->next = list for the first iteration, makes the "next"
+pointer point at null, but makes it on subsequent loops
+point to whatever list was pointing to (the next element)
+
+list = n makes list point to n, making n the front of the list
+
+}
+
+what I dont understand is how so many values can be stored with seemingly
+only one node n? list only points to the front.
+
+going through the list:
+
+create a temp pointer, set it equal to list.
+continue a loop while ptr != null. 
+get the value by using ptr->number
+each iteration, do this: ptr = ptr->next
+    essentially i++ in a normal for loop
+
